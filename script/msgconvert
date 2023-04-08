@@ -5,6 +5,8 @@
 # Convert .MSG files (made by Outlook (Express)) to multipart MIME messages.
 #
 
+use lib '/opt/redmine/work/email-outlook-message-perl/lib';
+
 use Email::Address;
 use Email::Outlook::Message;
 use Email::Sender::Transport::Mbox;
